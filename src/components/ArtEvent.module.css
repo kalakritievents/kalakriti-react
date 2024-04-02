@@ -1,0 +1,468 @@
+.artEventPage {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    /* Adjust based on your preference */
+    border: 3px solid #000000;
+    /* Adds border to the carousel */
+    /* border-radius: 10px; Optional: adds rounded corners */
+
+
+}
+
+
+
+.artEventPage {
+    margin: auto;
+    padding: 20px;
+}
+
+.carousel {
+    max-width: 80%;
+    /* Adjust based on your preference */
+    margin: 20px auto;
+    border: 3px solid #000000;
+    /* Adds border to the carousel */
+    /* border-radius: 10px; Optional: adds rounded corners */
+}
+
+.slideImage {
+    width: 100%;
+    height: auto;
+    /* Adjust height or use 'auto' for aspect ratio */
+}
+
+.eventInfo {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.posters {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.poster {
+    flex: 1;
+    /* Adjust based on your preference, or use fixed width */
+    max-width: 45%;
+    /* Adjust for maximum width */
+    border: 2px solid #ddd;
+    /* Adds border to posters */
+    border-radius: 5px;
+    /* Optional: adds rounded corners */
+    margin: 0 10px;
+}
+
+.poster img {
+    width: 100%;
+
+}
+
+.poster {
+    border: 5px solid #000000;
+    /* Add border to posters */
+    padding: 5px;
+    /* width: 40%; Adjust based on your preference */
+}
+
+@media (max-width: 768px) {
+    .posters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .poster {
+        /* max-width: 80%; Larger width for smaller devices */
+        max-width: 333px;
+        margin: 10px 0;
+    }
+
+    .carousel {
+        max-width: 100%;
+        /* Adjust based on your preference */
+        margin: 20px auto;
+        border: 3px solid #000000;
+        /* Adds border to the carousel */
+        /* border-radius: 10px; Optional: adds rounded corners */
+    }
+}
+
+.registerSection {
+    text-align: center;
+    margin: 20px;
+}
+
+.detailsBtn {
+    text-decoration: none;
+    background: linear-gradient(to right, #ffc780, #fde2c0);
+    color: black;
+    padding: 10px 20px;
+    margin: 0px 0px 22px 0px;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.detailsBtn:hover {
+    background: linear-gradient(to right, #fde2c0, #ffc780);
+}
+
+.artOfTheDay,
+.indianCultureSection,
+.certificateSection {
+    margin: 20px;
+    text-align: center;
+}
+
+.dailyArtworks,
+.seeMore {
+    margin: 23px 10px;
+}
+
+.seeMoreBtn {
+    background-color: #414345;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.seeMoreBtn:hover {
+    background-color: #313233;
+}
+
+/* Add more styles as needed based on your design */
+
+
+.artworkOfTheDay {
+    border: 20px solid black;
+
+    /* Styles for the artwork of the day section */
+}
+
+.titleArtworks {
+    margin: 20px 0px -22px 0px;
+    text-align: center;
+}
+
+.dailyArtworks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.cardDaily {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.cardTitle {
+    margin-bottom: 10px;
+}
+
+.cardText {
+    margin-bottom: 15px;
+}
+
+.btnPrimary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btnPrimary:hover {
+    background-color: #0056b3;
+}
+
+.seeMoreBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.seeMoreBtn:hover {
+    background-color: #218838;
+}
+
+.seeMore {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.indianCultureSection {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f0f0f0;
+    /* Light grey background */
+    text-align: center;
+    /* Center the text */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.indianCultureSection h2 {
+    color: #0054ca;
+    /* Deep blue color for the headline */
+    margin-bottom: 20px;
+    /* Space below the headline */
+}
+
+.indianCultureSection p {
+    color: black;
+    /* Standard text color */
+    margin-bottom: 10px;
+    /* Space between paragraphs */
+}
+
+.container3,
+.container4 {
+    display: flex;
+    justify-content: space-around;
+    /* Space between the left and right parts */
+    margin-top: 20px;
+}
+
+.container3 .left,
+.container4 .left4,
+.container3 .right,
+.container4 .right4 {
+    flex: 1;
+    /* Each takes equal space */
+}
+
+.container3 .left h1,
+.container3 .left h4,
+.container4 .left4 h1,
+.container4 .right4 h1 {
+    color: #000;
+    /* Black color for text */
+}
+
+.cimg,
+.cimg1 {
+    width: 100%;
+    border-radius: 8px;
+    /* Full width of the container */
+    /* Rounded corners for images */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* Shadow for depth */
+}
+
+.cimg1 {
+    width: 78%;
+    border: 6px solid black;
+    /* padding: 25px; */
+    margin: 40px;
+    border-radius: 18px;
+    /* Full width of the container */
+    /* Rounded corners for images */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* Shadow for depth */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+
+    .container3,
+    .container4 {
+        flex-direction: column;
+        /* Stack vertically on small screens */
+    }
+}
+
+.indianCultureSection {
+    /* background: linear-gradient(to right, #ffc780, #fde2c0); Gradient background */
+    background: linear-gradient(to right, #ffa000, white, #57ff31);
+    color: black;
+    /* Text color */
+    text-align: center;
+    /* Centering text */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Box shadow for depth */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+}
+
+.indianCultureSection h2 {
+    font-family: fantasy;
+    margin-bottom: 17px;
+    color: #0015ff;
+    font-size: 30px;
+
+}
+
+.indianCultureSection p {
+    margin-bottom: 5px;
+    /* Space between paragraphs */
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    /* Space between the text and image */
+    background-color: #b0e0e6;
+    /* Pale turquoise background */
+    padding: 20px;
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Box shadow for depth */
+    margin-top: 20px;
+}
+
+.container3 .left,
+.container3 .right {
+    flex-basis: 48%;
+    /* Each child takes up nearly half of the container's width */
+}
+
+.container3 .left {
+    display: grid;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: revert-layer;
+    justify-content: center;
+    /* Align text to the left */
+}
+
+.container3 .left h1 {
+    color: darkblue;
+    /* Color for the main certificate title */
+    margin-bottom: 10px;
+    /* Space below the heading */
+}
+
+.container3 .right {
+    display: flex;
+    justify-content: center;
+    /* Center the image within this section */
+}
+
+.container3 .right img {
+    max-width: 430px;
+    border: 4px solid black;
+    border-radius: 33px;
+}
+
+.artworkDaySection .card {
+    margin: 15px;
+    background-color: #f0f0f0;
+    /* Light gray background, you can change it to any color you prefer */
+    border-radius: 10px;
+    /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adding a subtle shadow to lift the card off the page */
+}
+
+.artworkDaySection .card-img-top {
+    height: 200px;
+    /* Set a fixed height for the images */
+    object-fit: cover;
+    /* Make sure the images cover the area without being stretched */
+    border-top-left-radius: 10px;
+    /* Continue the card's rounded corners on the top left */
+    border-top-right-radius: 10px;
+    /* Continue the card's rounded corners on the top right */
+}
+
+.artworkDaySection .btn-primary {
+    background-color: #007bff;
+    /* Customize the button color, this is the default blue */
+    border-color: #007bff;
+}
+
+.ArtWorkCard {
+    padding: 50px;
+}
+
+.datesSection {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 40px 20px;
+    text-align: center;
+    /* border-radius: 15px; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    /* max-width: 800px; */
+  }
+  
+  .sectionTitle {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .datesContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .dateBox {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .dateBox:hover {
+    transform: translateY(-10px);
+  }
+  
+  .dateTitle {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .feedback-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .feedback-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .star-rating .fa {
+    color: #ffd700;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  

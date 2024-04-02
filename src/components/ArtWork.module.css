@@ -1,0 +1,41 @@
+.artEventPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .titleArtworks {
+    margin-bottom: 30px;
+  }
+  
+  .dailyArtworks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust based on your preference */
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cardDaily {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .cardDaily .card-img-top {
+    height: 250px; /* Adjust based on your preference */
+    object-fit: cover;
+  }
+  
+  .cardDaily .card-footer {
+    background-color: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .dailyArtworks {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* More cards in a row on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,479 @@
+/* Header.module.css */
+.header {
+    background-color: #F5F5F5;
+    /* Adjust color to match your design */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #333;
+    /* Adjust color to match your design */
+    text-decoration: none;
+    font-size: 24px;
+    /* Adjust size as needed */
+    font-weight: bold;
+}
+
+.menu {
+    margin-left: 30px;
+}
+
+.navItem {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    /* Adjust color to match your design */
+    font-size: 18px;
+    /* Adjust size as needed */
+}
+
+.searchBar {
+    display: flex;
+}
+
+.searchInput {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Adjust as needed */
+}
+
+.searchButton {
+    background-color: #4CAF50;
+    /* Adjust color to match your design */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* Adjust as needed */
+    cursor: pointer;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menu {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .searchBar {
+        margin-top: 10px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F5F5F5;
+    /* Example background color */
+}
+
+.logoArea {
+    display: flex;
+    align-items: center;
+}
+
+.menuToggle {
+    display: none;
+    /* Hidden by default */
+    background: none;
+    border: none;
+    font-size: 24px;
+    /* Adjust as needed */
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.showMenu {
+    display: block;
+}
+
+.navItem {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    /* Example text color */
+}
+
+.searchBar {
+    display: flex;
+}
+
+.searchInput {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.searchButton {
+    padding: 5px 10px;
+}
+
+@media (max-width: 768px) {
+    .menuToggle {
+        display: block;
+        /* Show toggle in mobile view */
+    }
+
+    .navbar {
+        display: none;
+        /* Hide navbar items in mobile view */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchBar {
+        width: 100%;
+        /* Full width for mobile */
+        justify-content: flex-end;
+        /* Align search to the right */
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F5F5F5;
+    /* Example background color */
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+    /* Adjust based on your logo's size */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.navItem {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    /* Example text color */
+}
+
+.search {
+    display: flex;
+}
+
+.searchInput {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.searchButton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    /* Adjust button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.toggler {
+    padding-top: 3px;
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        right: 0;
+        top: 68px;
+        flex-direction: column;
+        background-color: #F5F5F5;
+        /* Match the header background */
+        width: 100%;
+        transform: translateX(100%);
+        text-align: center;
+    }
+
+    .navOpen {
+        transform: translateX(0);
+    }
+
+    .toggler {
+        padding-top: 3px;
+        display: none;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F5F5F5;
+    /* Adjust to match your theme */
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo img {
+    height: 60px;
+    /* Adjust based on your logo size */
+    border-radius: 30px;
+    /* Gives a circular border if square, adjust as needed */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navItem {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    /* Adjust color as needed */
+}
+
+.search {
+    display: flex;
+}
+
+.searchInput {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Rounded corners for the input */
+}
+
+.searchButton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    /* Adjust to your preference */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Rounded corners for the button */
+    cursor: pointer;
+}
+
+.toggler {
+    padding-top: 5px;
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .navbar,
+    .search {
+        display: none;
+        /* Initially hide navbar and search in mobile view */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navOpen {
+        display: flex;
+        /* Display navbar items in column when open */
+        position: absolute;
+        top: 68px;
+        /* Adjust based on header height */
+        left: 0;
+        background-color: #F5F5F5;
+        /* Match the header background */
+        border-bottom: 1px solid #ccc;
+        /* Add a subtle border */
+        z-index: 5;
+    }
+
+    .toggler {
+        display: block;
+        position: absolute;
+        right: 10px;
+        /* Position toggler to the right */
+        top: 10px;
+        /* Align with logo's vertical center */
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #444;
+    /* Dark background for contrast */
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    /* Circular logo */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navItem {
+    margin: 0 20px;
+    /* Space out nav items */
+    color: white;
+    text-decoration: none;
+}
+
+.toggler {
+    padding-top: 5px;
+
+    display: none;
+    /* Hidden by default */
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    padding: 5px 10px;
+    border-radius: 20px;
+    /* Rounded corners */
+    border: 1px solid #ddd;
+}
+
+.searchButton {
+    padding: 5px 10px;
+    margin-top: 5px;
+    /* Space between input and button */
+    background-color: #5cb85c;
+    /* Green button */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    /* Rounded corners */
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .navbar,
+    .search {
+        display: none;
+    }
+
+    .navOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* Align links to the left */
+        background-color: #444;
+        /* Consistent with the header */
+        width: 100%;
+        /* Full width */
+    }
+
+    .toggler {
+        display: block;
+    }
+
+    .navItem,
+    .search {
+        width: 100%;
+        /* Full width for items */
+        padding: 10px;
+        /* More space */
+        text-align: left;
+        /* Align text to left */
+    }
+
+    .search {
+        display: flex;
+        /* Ensure search is visible */
+        justify-content: space-between;
+        /* Align input and button */
+        padding: 10px;
+        /* Padding for larger touch targets */
+    }
+
+    .header {
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #444;
+        padding: 10px 20px;
+        color: white;
+
+    }
+}
+
+.logoText {
+    margin-left: 10px;
+    /* Adjust spacing as needed */
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    /* Allow horizontal alignment */
+    align-items: center;
+    /* Align logo and text vertically */
+}
+
+.logo {
+    display: flex;
+    /* Allow inline elements within the logo */
+    align-items: center;
+    /* Ensure vertical alignment */
+}
+
+.logo img {
+    margin-right: 10px;
+    /* Adjust spacing between logo and text */
+}
+
+.logoText {
+    color: #fff;
+    /* Set desired text color (white in this example) */
+    width: 200px;
+    
+}

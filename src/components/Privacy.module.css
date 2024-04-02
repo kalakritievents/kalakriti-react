@@ -1,0 +1,57 @@
+.privacyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background-color: #fff; /* Light background for better readability */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    line-height: 1.6; /* Improve readability */
+}
+
+.heading {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subHeading {
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subHeadingSmall {
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 1rem; /* Standard font size for readability */
+    max-width: 700px; /* Ensuring text blocks are not too wide */
+    margin-left: auto; /* Centering the text block horizontally */
+    margin-right: auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .privacyContainer {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .heading, .subHeading, .subHeadingSmall {
+        font-size: 1.5em; /* Adjusting text size for readability on smaller screens */
+    }
+
+    .text {
+        font-size: 1em; /* Slightly smaller text on smaller screens for better fit */
+    }
+}

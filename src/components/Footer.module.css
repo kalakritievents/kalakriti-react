@@ -1,0 +1,189 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdfcea;
+    padding: 20px;
+    text-align: center;
+}
+
+.contactDetails {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your layout */
+}
+
+.contactInfo {
+    flex-basis: 50%;
+}
+
+.contactForm {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between form elements */
+}
+
+.contactForm input, .contactForm textarea {
+    padding: 10px;
+    margin-bottom: 10px; /* Space below inputs */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contactForm button {
+    padding: 10px 20px;
+    background-color: #eadc64; /* Match buttons to your theme */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.terms {
+    margin-top: 20px;
+}
+
+.termsButton {
+    background-color: #888;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copyRight {
+    margin-top: 20px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .contactDetails {
+        flex-direction: column;
+    }
+}
+.faq {
+    margin: 50px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 720px) {
+    .faq {
+        margin: 24px;
+        padding: 1px !important;
+    }
+}
+
+.arch_contact_us_duplicate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fdfcea; /* Adjust background color as needed */
+}
+
+.big_container, .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_text_block, .form_wrapper {
+    margin: 20px;
+}
+
+.section_head, .section_subhead {
+    color: #333; /* Adjust text color as needed */
+}
+
+.contact_info {
+    margin-bottom: 10px;
+}
+
+.input_element, .textinput_element {
+    width: 100%; /* Adjust width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Adjust border as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+}
+
+.send_button {
+    width: 100%; /* Adjust width as needed */
+    padding: 10px;
+    background-color: #dfda5c; /* Adjust background color as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Adjust border radius as needed */
+}
+.contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdd4; /* Adjust based on your preference */
+    padding: 40px 20px;
+}
+
+.contactContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.contactInfo h2, .contactInfo h3, .contactInfo p, .contactInfo address {
+    margin: 10px 0;
+}
+
+.contactForm input, .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc; /* Light grey border */
+}
+
+.contactForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .contactContent {
+        grid-template-columns: 1fr;
+    }
+}
+.terms, .copyRight {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .link {
+    color: blue; /* Or your theme's link color */
+  }
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* Adjust the gap between icons */
+    margin-top: 20px; /* Space above icons */
+  }
+  
+  .socialIcons a {
+    color: #ff00c8; /* Adjust color to fit your design */
+    font-size: 30px; /* Adjust size as needed */
+  }
+  .socialIcons_fb a {
+    color: #2529ff; /* Adjust color to fit your design */
+    font-size: 30px; /* Adjust size as needed */
+  }

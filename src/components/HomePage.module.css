@@ -1,0 +1,49 @@
+.homePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.eventCard {
+    width: 300px; /* Adjust based on your design */
+    border: 1px solid #ccc; /* Example border */
+    margin: 15px;
+    overflow: hidden;
+}
+
+.eventImage {
+    width: 100%; /* Ensure images are responsive */
+    height: auto;
+}
+
+.eventInfo {
+    padding: 15px;
+    text-align: center;
+}
+
+.eventLink {
+    background-color: #4CAF50; /* Example button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .eventSection {
+        flex-direction: column;
+    }
+
+    .eventCard {
+        width: 90%; /* Full width on smaller screens */
+    }
+}

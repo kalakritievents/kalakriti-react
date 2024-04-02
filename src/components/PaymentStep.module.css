@@ -1,0 +1,56 @@
+.paymentStepPage {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin-top: 20px; */
+}
+
+.paymentCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+}
+
+.paymentCard {
+    width: 100%;
+    max-width: 400px; /* Adjust based on your preference */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the card */
+}
+
+.paymentCard .card-title {
+    color: #333; /* Dark text for better readability */
+    margin-bottom: 20px;
+}
+
+.paymentCard .card-text {
+    color: #555; /* Slightly lighter text */
+    margin-bottom: 20px;
+}
+
+.razorpayButton {
+    text-decoration: none;
+    background-color: #0275d8; /* Razorpay theme color */
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.razorpayButton:hover {
+    background-color: #025aa5; /* Darker shade for hover effect */
+}
+
+@media screen and (max-width: 768px) {
+    .paymentCardsContainer {
+        flex-direction: column;
+    }
+}

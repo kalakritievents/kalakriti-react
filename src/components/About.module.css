@@ -1,0 +1,55 @@
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make it at least as tall as the viewport */
+    padding: 20px;
+}
+
+.aboutCard {
+    background-color: #fff; /* Light background for the card */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px; /* Adjust based on your preference */
+    width: 100%;
+}
+
+.aboutTitle {
+    text-align: center;
+    color: #333; /* Dark text for better readability */
+    margin-bottom: 30px; /* Space below the title */
+}
+
+.aboutHeading {
+    color: #0056b3; /* Dark blue for headings */
+    margin-top: 25px; /* More space above new sections */
+    margin-bottom: 15px; /* Space below the headings */
+    text-align: center;
+}
+
+.aboutText {
+    text-align: justify;
+    margin-bottom: 20px; /* Space below paragraphs for separation */
+    line-height: 1.6; /* Improve readability */
+}
+
+.aboutList {
+    list-style: inside disc; /* Bullet points inside to align with text */
+    padding-left: 0; /* Remove default padding */
+    text-align: left; /* Left-align the list */
+    margin-left: auto; /* Center the list */
+    margin-right: auto;
+    max-width: 750px; /* Optimal line length for readability */
+    margin-bottom: 20px; /* Space below the list */
+}
+
+@media screen and (max-width: 768px) {
+    .aboutCard {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+
+    .aboutText, .aboutList {
+        text-align: left; /* Align text to left on smaller screens */
+    }
+}
