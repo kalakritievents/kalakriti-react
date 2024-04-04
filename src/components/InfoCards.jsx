@@ -28,7 +28,7 @@ const InfoCards = () => {
                     <p>Online From Home</p>
                     {/* <button onClick={() => navigate('/ArtRegister')}>REGISTER NOW</button> */}
                     <button>
-                    <Link to="/ArtRegister" style={{ "textDecoration": "none" }}>REGISTER NOW</Link>
+                    <Link to="/Register" style={{ "textDecoration": "none" }}>REGISTER NOW</Link>
                     </button>
 
                 </div>

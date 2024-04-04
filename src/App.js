@@ -36,7 +36,7 @@ import Privacy from './components/Privacy';
 import Register from './components/register';
 // import Contact from './components/Contact';
 // import { SpeedInsights } from "@vercel/speed-insights/next"
-
+      
 
 function App() {
   return (
