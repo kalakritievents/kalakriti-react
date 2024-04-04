@@ -153,19 +153,19 @@ const ArtEvent = () =>{
         <div className={styles.datesContainer}>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Last Date To Apply</p>
-            <p className={styles.date}>15th March 2024</p>
+            <p className={styles.date}>15th April 2024</p>
           </div>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Registration Start Date</p>
-            <p className={styles.date}>01st March 2024</p>
+            <p className={styles.date}>01st April 2024</p>
           </div>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Result Date</p>
-            <p className={styles.date}>16th March 2024</p>
+            <p className={styles.date}>16th April 2024</p>
           </div>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Prize Distribution</p>
-            <p className={styles.date}>17th March 2024</p>
+            <p className={styles.date}>17th April 2024</p>
           </div>
         </div>
       </div>
