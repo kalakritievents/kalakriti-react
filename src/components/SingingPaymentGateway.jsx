@@ -8,7 +8,7 @@ import styles from './Footer.module.css';
 const ArtPaymentGateway = () => {
     const [name, setName] = useState('');
     const [artworkCount, setArtworkCount] = useState(1);
-    const [amount, setAmount] = useState(150); // Default amount for one artwork
+    const [amount, setAmount] = useState(250); // Default amount for one artwork
     const [paymentLink, setPaymentLink] = useState('https://rzp.io/l/zcrr3oBsAD'); // Default payment link
 
     const handleArtworkCountChange = (event) => {
@@ -18,47 +18,47 @@ const ArtPaymentGateway = () => {
         // Calculate amount based on artwork count
         switch (count) {
             case 1:
-                setAmount(150);
+                setAmount(250);
                 setPaymentLink('https://rzp.io/l/zcrr3oBsAD');
                 break;
             case 2:
-                setAmount(220);
+                setAmount(320);
                 setPaymentLink('https://rzp.io/l/5N5pdnx');
                 break;
             case 3:
-                setAmount(320);
+                setAmount(420);
                 setPaymentLink('https://rzp.io/l/q1zdVhD');
                 break;
             case 4:
-                setAmount(420);
+                setAmount(520);
                 setPaymentLink('https://rzp.io/l/d854AiDI');
                 break;
             case 5:
-                setAmount(520);
+                setAmount(620);
                 setPaymentLink('https://rzp.io/l/GDVHJCuN');
                 break;
             case 6:
-                setAmount(620);
+                setAmount(720);
                 setPaymentLink('https://rzp.io/l/9ADEYkIV');
                 break;
             case 7:
-                setAmount(720);
+                setAmount(820);
                 setPaymentLink('https://rzp.io/l/qq0xzyLHG');
                 break;
             case 8:
-                setAmount(820);
+                setAmount(920);
                 setPaymentLink('https://rzp.io/l/gQH6nVMHW2');
                 break;
             case 9:
-                setAmount(920);
+                setAmount(1020);
                 setPaymentLink('https://rzp.io/l/hcTzINKxCC');
                 break;
             case 10:
-                setAmount(999);
+                setAmount(1220);
                 setPaymentLink('https://rzp.io/l/cyrtw65');
                 break;
             default:
-                setAmount(150);
+                setAmount(250);
                 setPaymentLink('https://rzp.io/l/zcrr3oBsAD');
         }
     };

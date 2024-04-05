@@ -6,8 +6,8 @@ import { Carousel } from 'react-bootstrap';
 import styles from './ArtEvent.module.css';
 import ArtSlide1 from '../assets/events/SingingEvent/ArtSlide1.jpeg';
 // import ArtSlide2 from '../assets/events/ArtEvent/ArtSlide2.gif';
-import ArtEntryFee from '../assets/events/ArtEvent/ArtEntryFee.gif';
-import ArtPrize from '../assets/events/ArtEvent/ArtPrize.jpeg';
+import SingingEntryFee from '../assets/events/SingingEvent/SingingEntryFee.jpeg';
+import SingingPrize from '../assets/events/SingingEvent/SingingPrize.jpeg';
 import templete1 from '../assets/templete1.jpg';
 import certificate1 from '../assets/certificate1.jpg';
 import certificate2 from '../assets/certificate2.jpg';
@@ -64,10 +64,10 @@ const ArtEvent = () =>{
 
         <div className={styles.posters}>
           <div className={styles.poster}>
-            <img src={ArtPrize} alt="Art Prize" />
+            <img src={SingingEntryFee} alt="Art Entry Fee" />
           </div>
           <div className={styles.poster}>
-            <img src={ArtEntryFee} alt="Art Entry Fee" />
+            <img src={SingingPrize} alt="Art Prize" />
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ const ArtEvent = () =>{
       <div className={styles.indianCultureSection}>
         <h2>NATIONAL SINGING CONTEST FOR OUR INDIAN CULTURE</h2>
         <p style={{ "fontSize": "larger" }}>India's Largest Online Singing Competition Platform*</p>
-        <h4 style={{ "fontWeight": "bold" }} >SEASON 8 LIVE NOW</h4>
+        <h4 style={{ "fontWeight": "bold" }} >SEASON 1 LIVE NOW</h4>
       </div>
 
       <div className={styles.container3}>
