@@ -91,7 +91,7 @@ const ArtEvent = () =>{
           <Card className='ArtWorkCard'>
             <Card.Img variant="top" style={{ "height": "-webkit-fill-available" }} src={ArtworkDay2} />
             <Card.Body>
-              <Card.Title>Anita Rathod</Card.Title>
+              <Card.Title>Madhuri Patel</Card.Title>
             </Card.Body>
             <Card.Footer>
               <small className="text" style={{ "fontWeight": "bolder" }}>02/03/2024</small>
