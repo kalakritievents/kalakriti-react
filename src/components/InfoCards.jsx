@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import './InfoCards.css'; // Make sure this path is correct
 
 const InfoCards = () => {
     // const navigate = useNavigate(); // This replaces useHistory
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 100); // Adjust delay time as needed, 100ms is just an example
+        return () => clearTimeout(timer); // Cleanup the timeout if the component unmounts before the timeout is completed
+    }, []);
 
     return (
         <div className="info-cards-container">

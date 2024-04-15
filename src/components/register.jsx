@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'; // Ensure you have React Router installed
 import Header from './Header'; // Adjust the import path as needed
 import Footer from './Footer'; // Adjust the import path as needed
@@ -14,6 +14,15 @@ const events = [
 ];
 
 const Register = () => {
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 100); // Adjust delay time as needed, 100ms is just an example
+        return () => clearTimeout(timer); // Cleanup the timeout if the component unmounts before the timeout is completed
+    }, []);
+
+    
     return (
         <div className={styles.registerPage}>
             <div style={{ "width": "100%" }}>
