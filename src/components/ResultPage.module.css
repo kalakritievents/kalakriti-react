@@ -19,5 +19,15 @@
     text-align: center;
     border-radius: 8px;
 }
+.newlabel {
+    color: red;
+    font-weight: bold;
+    animation: blinker 0.3s linear infinite;
+}
 
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
 /* Add other styles as needed */

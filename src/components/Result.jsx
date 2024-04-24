@@ -5,12 +5,12 @@ import { Card, Dropdown, DropdownButton } from 'react-bootstrap'; // Ensure Reac
 import styles from './ResultPage.module.css'; // Path to your CSS file for this component
 
 const events = [
-    { name: 'Art Event', basepath: '/art' },
-    { name: 'Mehandi Event', basepath: '/mehandi' },
-    { name: 'Rangoli Event', basepath: '/rangoli' },
-    { name: 'Photography Event', basepath: '/photography' },
-    { name: 'Dance Event', basepath: '/dance' },
-    { name: 'Singing Event', basepath: '/singing' },
+    { name: 'Art Event', basepath: '/art', seasons: 9 },
+    { name: 'Mehandi Event', basepath: '/mehandi', seasons: 9 },
+    { name: 'Rangoli Event', basepath: '/rangoli', seasons: 9 },
+    { name: 'Photography Event', basepath: '/photography', seasons: 9 },
+    { name: 'Dance Event', basepath: '/dance', seasons: 3 },
+    { name: 'Singing Event', basepath: '/singing', seasons: 1 },
 ];
 
 const ResultPage = () => {
@@ -22,7 +22,6 @@ const ResultPage = () => {
     return (
         <div className={styles.resultPage}>
             <div style={{ "width": "100%" }}>
-
                 <Header isEventPage={true} />
             </div>            
             <div className={styles.resultsContainer}>
@@ -30,9 +29,11 @@ const ResultPage = () => {
                     <Card key={index} className={styles.resultCard}>
                         <Card.Body>
                             <Card.Title>{event.name} Results</Card.Title>
-                            <DropdownButton id="dropdown-basic-button" title="View Results" variant="primary">
-                                {[...Array(9)].map((x, i) => (
-                                    <Dropdown.Item key={i} onClick={() => handleSelect(i + 1, event.basepath)}>{`Season ${i + 1}`}</Dropdown.Item>
+                            <DropdownButton id={`dropdown-${index}-button`} title="View Results" variant="primary">
+                                {[...Array(event.seasons)].map((x, i) => (
+                                    <Dropdown.Item key={i} onClick={() => handleSelect(i + 1, event.basepath)}>
+                                        {`Season ${i + 1}`} {i === event.seasons - 1 ? <span className={styles.newlabel}>New</span> : null}
+                                    </Dropdown.Item>
                                 ))}
                             </DropdownButton>
                         </Card.Body>
@@ -45,3 +46,6 @@ const ResultPage = () => {
 };
 
 export default ResultPage;
+
+
+                            
