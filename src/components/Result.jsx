@@ -16,7 +16,7 @@ const events = [
 const ResultPage = () => {
     // Function to handle navigation. Adjust as needed.
     const handleSelect = (eventKey, eventPath) => {
-        window.location.href = `${eventPath}_season${eventKey}.html`;
+        window.location.href = `/result${eventPath}_season${eventKey}.html`;
     };
 
     return (
@@ -31,7 +31,7 @@ const ResultPage = () => {
                         <Card.Body>
                             <Card.Title>{event.name} Results</Card.Title>
                             <DropdownButton id="dropdown-basic-button" title="View Results" variant="primary">
-                                {[...Array(8)].map((x, i) => (
+                                {[...Array(9)].map((x, i) => (
                                     <Dropdown.Item key={i} onClick={() => handleSelect(i + 1, event.basepath)}>{`Season ${i + 1}`}</Dropdown.Item>
                                 ))}
                             </DropdownButton>
