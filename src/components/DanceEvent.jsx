@@ -75,17 +75,14 @@ const ArtEvent = () =>{
 
       </div>
 
-      
-
-
-
-
 
 
       <div className={styles.indianCultureSection}>
         <h2>NATIONAL DANCE CONTEST FOR OUR INDIAN CULTURE</h2>
         <p style={{ "fontSize": "larger" }}>India's Largest Online Dance Competition Platform*</p>
-        <h4 style={{ "fontWeight": "bold" }} >SEASON 2 LIVE NOW</h4>
+        {/* <h4 style={{ "fontWeight": "bold" }} >SEASON 2 LIVE NOW</h4> */}
+        <h4 className={styles.SeasonName} >SEASON 3 LIVE NOW</h4>
+
       </div>
 
       <div className={styles.container3}>
@@ -114,19 +111,19 @@ const ArtEvent = () =>{
         <div className={styles.datesContainer}>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Last Date To Apply</p>
-            <p className={styles.date}>15th April 2024</p>
+            <p className={styles.date}>05th May 2024</p>
           </div>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Registration Start Date</p>
-            <p className={styles.date}>01st April 2024</p>
+            <p className={styles.date}>25th April 2024</p>
           </div>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Result Date</p>
-            <p className={styles.date}>16th April 2024</p>
+            <p className={styles.date}>10th May 2024</p>
           </div>
           <div className={styles.dateBox}>
             <p className={styles.dateTitle}>Prize Distribution</p>
-            <p className={styles.date}>17th April 2024</p>
+            <p className={styles.date}>12th May 2024</p>
           </div>
         </div>
       </div>

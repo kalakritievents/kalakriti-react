@@ -466,3 +466,16 @@
     color: orange;
   }
   
+
+.SeasonName {
+    font-family: sans-serif;
+    color: var(--bs-code-color);
+    font-weight: bold;
+    animation:blinker 1.3s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
