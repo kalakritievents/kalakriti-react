@@ -410,7 +410,7 @@
   }
   
   .sectionTitle {
-    color: #fff;
+    color: black;
     margin-bottom: 30px;
     font-size: 2em;
     text-transform: uppercase;
@@ -479,3 +479,45 @@
         opacity: 0;
     }
 }
+
+
+
+
+.mainTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .mainTitle::after {
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    border-radius: 5px;
+  }
+  
+  .updated {
+    font-size: 1rem;
+    color: #e74c3c;
+    margin-left: 10px;
+    animation: blink 1.5s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+

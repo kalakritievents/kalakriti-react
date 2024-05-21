@@ -21,6 +21,7 @@ import CountdownTimer from './CountdownTimer';
 import InfoCards from './InfoCards'; // Ensure the path to your InfoCards component is correct
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import DatesCard from './DatesCard'; // Adjust the import path as necessary
 
 
 
@@ -148,27 +149,10 @@ const ArtEvent = () =>{
       </div>
 
 
-      <div className={styles.datesSection}>
-        <h2 className={styles.sectionTitle}>IMPORTANT DATES</h2>
-        <div className={styles.datesContainer}>
-          <div className={styles.dateBox}>
-            <p className={styles.dateTitle}>Last Date To Apply</p>
-            <p className={styles.date}>20th May 2024</p>
-          </div>
-          <div className={styles.dateBox}>
-            <p className={styles.dateTitle}>Registration Start Date</p>
-            <p className={styles.date}>1st May 2024</p>
-          </div>
-          <div className={styles.dateBox}>
-            <p className={styles.dateTitle}>Result Date</p>
-            <p className={styles.date}>23rd May 2024</p>
-          </div>
-          <div className={styles.dateBox}>
-            <p className={styles.dateTitle}>Prize Distribution</p>
-            <p className={styles.date}>25th May 2024</p>
-          </div>
-        </div>
-      </div>
+    
+
+      <DatesCard/>
+
 
       <FeedbackCardsContainer />
       
