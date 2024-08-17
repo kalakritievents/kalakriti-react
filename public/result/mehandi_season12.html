@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kalakriti Art Events - Results</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navbar {
+        background: #c9d6ff;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        margin-right: auto;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 100%;
+        margin: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .winner-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .winner-list li {
+        margin-bottom: 10px;
+      }
+
+      .winner-name {
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      /* Style for the "Top 50 Artists" section */
+      .artist-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .artist-list li {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      /* Improved mobile responsiveness */
+      @media (max-width: 600px) {
+        .container {
+          padding: 10px;
+          margin: 10px;
+        }
+
+        .artist-list {
+          padding-left: 10px;
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="logo.jpg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-center"
+            style="border-radius: 50%"
+          />
+          <b> KalaKriti Mehndi Event </b>
+        </a>
+
+        <!-- Add a spacer to push the toggler to the right -->
+        <div class="d-flex flex-row align-items-center">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >Result</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >Register</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="header">
+      <h1>Kalakriti Mehndi Contest Grand Season 12 - Results</h1>
+    </div>
+    <div class="container">
+      <h2>Adult (16yr-80yr)-</h2>
+      <ul class="winner-list">
+        <li><span class="winner-name">First Place:</span> Radha Krishnan</li>
+        <li><span class="winner-name">Second Place:</span> Astha Mathur</li>
+        <li><span class="winner-name">Third Place:</span> Anvesha Joshi</li>
+        <li><span class="winner-name">Fourth Place:</span> Madhuri Verma</li>
+        <li><span class="winner-name">Fifth Place:</span> Iqra Shaikh</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Children (7yr-15yr)-</h2>
+      <ul class="winner-list">
+        <li><span class="winner-name">First Place:</span> Laxmi Urme</li>
+        <li>
+          <span class="winner-name">Second Place:</span> Vaishali Sakharkar
+        </li>
+        <li><span class="winner-name">Third Place:</span> Muskan Khan</li>
+        <li><span class="winner-name">Fourth Place:</span> Safina Khatun</li>
+        <li><span class="winner-name">Fifth Place:</span> Ankita Kudmethe</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Pre-school (2yr-6yr)-</h2>
+      <ul class="winner-list">
+        <li><span class="winner-name">First Place:</span> Sayani Joshi</li>
+        <li>
+          <span class="winner-name">Second Place:</span> Vaishnavi Belsare
+        </li>
+        <li><span class="winner-name">Third Place:</span> Radha Rathod</li>
+        <li><span class="winner-name">Fourth Place:</span> Pathan Ishita</li>
+        <li><span class="winner-name">Fifth Place:</span> Urvashi Sharma</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Top 50 Artists</h2>
+      <ol class="artist-list">
+        <ul>
+          <li>1: Aravind Pillai</li>
+          <li>2: Meera Bhattacharya</li>
+          <li>3: Devendra Pandey</li>
+          <li>4: Shweta Kulkarni</li>
+          <li>5: Karan Chopra</li>
+          <li>6: Lata Jain</li>
+          <li>7: Mohan Shetty</li>
+          <li>8: Alka Shukla</li>
+          <li>9: Harish Kaushik</li>
+          <li>10: Pallavi Ghosh</li>
+          <li>11: Sunil Ahuja</li>
+          <li>12: Ritu Mahajan</li>
+          <li>13: Akash Tripathi</li>
+          <li>14: Gauri Thakur</li>
+          <li>15: Shashank Das</li>
+          <li>16: Radha Bhat</li>
+          <li>17: Amit Tandon</li>
+          <li>18: Shruti Pawar</li>
+          <li>19: Mukesh Yadav</li>
+          <li>20: Varsha Puri</li>
+
+          <li>21: Rohina Tabassum</li>
+          <li>22: Fiza Kanabar</li>
+          <li>23: CHANDRIKA GADDE</li>
+          <li>24: Sithara Jasmin</li>
+          <li>25: Fathimathul Shadha</li>
+          <li>26: Fathimathul Shadha MV</li>
+          <li>27: Sujatha Adabala</li>
+          <li>28: M. Nabisha</li>
+          <li>29: Mukeshini M</li>
+          <li>30: Mukeshini M</li>
+          <li>31: Nikita Soni</li>
+          <li>32: Amrin Pinjari</li>
+          <li>33: Shanti Suraj</li>
+          <li>34: Pallavi Dhokale</li>
+          <li>35: Taniya Shaikh</li>
+          <li>36: Ansari Khatija</li>
+          <li>37: Jesima Parveen</li>
+          <li>38: Ishrat Azad</li>
+          <li>39: Dolly Pradeep Sonwane</li>
+          <li>40: Rohina Tabassum</li>
+          <li>41: Fiza Kanabar</li>
+          <li>42: CHANDRIKA GADDE</li>
+          <li>43: Sithara Jasmin</li>
+          <li>44: Fathimathul Shadha</li>
+          <li>45: Fathimathul Shadha MV</li>
+          <li>46: Sujatha Adabala</li>
+          <li>47: M. Nabisha</li>
+          <li>48: Mukeshini M</li>
+          <li>49: Mukeshini M</li>
+          <li>50: Nikita Soni</li>
+        </ul>
+      </ol>
+    </div>
+
+    <div class="container text-center">
+      <div>
+        <div style="display: inline-block; margin-right: 20px">
+          <div
+            style="
+              width: 20px;
+              height: 20px;
+              background-color: green;
+              display: inline-block;
+            "
+          ></div>
+          <span style="margin-left: 5px; color: green"
+            >Address Form Filled</span
+          >
+        </div>
+        <div style="display: inline-block">
+          <div
+            style="
+              width: 20px;
+              height: 20px;
+              background-color: red;
+              display: inline-block;
+            "
+          ></div>
+          <span style="margin-left: 5px; color: red"
+            >Address Form Not Filled</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kalakriti Art Events - Results</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navbar {
+        background: #c9d6ff;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        margin-right: auto;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 100%;
+        margin: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .winner-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .winner-list li {
+        margin-bottom: 10px;
+      }
+
+      .winner-name {
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      /* Style for the "Top 50 Artists" section */
+      .artist-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .artist-list li {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      /* Improved mobile responsiveness */
+      @media (max-width: 600px) {
+        .container {
+          padding: 10px;
+          margin: 10px;
+        }
+
+        .artist-list {
+          padding-left: 10px;
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="logo.jpg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-center"
+            style="border-radius: 50%"
+          />
+          <b> KalaKriti Art Event </b>
+        </a>
+
+        <!-- Add a spacer to push the toggler to the right -->
+        <div class="d-flex flex-row align-items-center">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >Result</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="/result"
+                >Register</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="header">
+      <h1>Kalakriti Art Contest Grand Season 12 - Results</h1>
+    </div>
+    <div class="container">
+      <h2>Adult (16yr-80yr)-</h2>
+      <ul class="winner-list">
+        <li><span class="winner-name">First Place:</span> Rushikesh Rathi</li>
+        <li><span class="winner-name">Second Place:</span> Pushpak Bhor</li>
+        <li><span class="winner-name">Third Place:</span> Amruta Bajaj</li>
+        <li><span class="winner-name">Fourth Place:</span> Ashfak Shaikh</li>
+        <li><span class="winner-name">Fifth Place:</span> Julie Singh</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Children (7yr-15yr)-</h2>
+      <ul class="winner-list">
+        <li><span class="winner-name">First Place:</span> Rahul Pande</li>
+        <li><span class="winner-name">Second Place:</span> Yash Harne</li>
+        <li><span class="winner-name">Third Place:</span> Priyansh Surve</li>
+        <li><span class="winner-name">Fourth Place:</span> Mishra Harpreet</li>
+        <li><span class="winner-name">Fifth Place:</span> Rathod Kisan</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Pre-school (2yr-6yr)-</h2>
+      <ul class="winner-list">
+        <li><span class="winner-name">First Place:</span> Pratik Lode</li>
+        <li><span class="winner-name">Second Place:</span> Shree Gobe</li>
+        <li><span class="winner-name">Third Place:</span> Muskan Shaikh</li>
+        <li><span class="winner-name">Fourth Place:</span> Farukh Javed</li>
+        <li><span class="winner-name">Fifth Place:</span> Sayli Diwte</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Top 200 Artists</h2>
+      <ol class="artist-list">
+        <ul>
+          <li>1: Arjun Singh</li>
+          <li>2: Kavita Sharma</li>
+          <li>3: Rohan Deshmukh</li>
+          <li>4: Nisha Patel</li>
+          <li>5: Vikram Nair</li>
+          <li>6: Anjali Gupta</li>
+          <li>7: Manish Verma</li>
+          <li>8: Pooja Joshi</li>
+          <li>9: Abhishek Rao</li>
+          <li>10: Neha Choudhary</li>
+          <li>11: Siddharth Khanna</li>
+          <li>12: Swati Aggarwal</li>
+          <li>13: Aditya Bansal</li>
+          <li>14: Sneha Dubey</li>
+          <li>15: Rajesh Iyer</li>
+          <li>16: Priya Menon</li>
+          <li>17: Suresh Rao</li>
+          <li>18: Deepa Reddy</li>
+          <li>19: Vikas Sinha</li>
+          <li>20: Rekha Naik</li>
+
+          <li>21: DHARAM J. RATHOD</li>
+          <li>22: Lovely Jain</li>
+          <li>23: S. Suguna</li>
+          <li>24: PRAVEEN KUMAR L</li>
+          <li>25: Neha Verma</li>
+          <li>26: Lakshmanan</li>
+          <li>27: K. Preethi</li>
+          <li>28: SANAF ISLAM</li>
+          <li>29: AARUSHI DAS</li>
+          <li>30: Poulomi Ghosh</li>
+          <li>31: Maithali Agrawal</li>
+          <li>32: Shreya Mitra</li>
+          <li>33: Babynanda Shetkar</li>
+          <li>34: Pallavi</li>
+          <li>35: Mrs. Megha Jindal</li>
+          <li>36: Debangshi Mondal</li>
+          <li>37: Gunjal Chawda</li>
+          <li>38: Ankana Das</li>
+          <li>39: Palak Rastogi</li>
+          <li>40: Banupriya K</li>
+          <li>41: Deepanshu</li>
+          <li>42: Shreyasi Roy</li>
+          <li>43: Itishreem Joshi</li>
+          <li>44: A. Anushiya</li>
+          <li>45: Tarunima Parida</li>
+          <li>46: AROCKIA MERLIN J</li>
+          <li>47: Rashmi</li>
+          <li>48: Rashmi</li>
+          <li>49: Niranjana</li>
+          <li>50: Vineetha Sasikumar</li>
+          <li>51: NILESH PRADHAN</li>
+          <li>52: Jaspreet Kour</li>
+          <li>53: Pramod Vasant Ahire</li>
+          <li>54: Satyaveer Singh Shekhawat</li>
+          <li>55: Nimisha Gupta</li>
+          <li>56: Sunitha Francis</li>
+          <li>57: Jaswanth Singh R</li>
+          <li>58: Antariksha Chatterjee</li>
+          <li>59: Shivam Verma</li>
+          <li>60: Aaradhya Sunil Birajdar</li>
+          <li>61: Rittika Neog</li>
+          <li>62: Tharani Jaiprakash</li>
+          <li>63: Mohita Trivedi</li>
+          <li>64: ABHISEK GHOSH</li>
+          <li>65: Tirumanyam Uma</li>
+          <li>66: Subhasmita Acharjee</li>
+          <li>67: Aastha Garg</li>
+          <li>68: Rupesh Bhatia</li>
+          <li>69: Vaishnavi Gupta</li>
+          <li>70: Vanita Vijay Bhagwat</li>
+          <li>71: Manpreet Singh</li>
+          <li>72: Vasava Ashish I</li>
+          <li>73: Sri Kuldeep Kunal</li>
+          <li>74: Koushik Hegde</li>
+          <li>75: Ahaana V P</li>
+          <li>76: Ahaan V P</li>
+          <li>77: Alamelu Parameswaran Iyer</li>
+          <li>78: Omprakash Gupta</li>
+          <li>79: Ramchandra Evnati</li>
+          <li>80: Ramchandra Evnati</li>
+          <li>81: Mouitre Bose</li>
+          <li>82: Moin Imran Shaikh</li>
+          <li>83: Sadaf Khan</li>
+          <li>84: Gangotri De</li>
+          <li>85: Artist: Deepshikha</li>
+          <li>86: Ayisha Rushda K T</li>
+          <li>87: Ritu Verma</li>
+          <li>88: Sidhik</li>
+          <li>89: Showrya Hanmant Pisal</li>
+          <li>90: Garvit Nama</li>
+          <li>91: Shrinika Jha</li>
+          <li>92: Chaitali Mahato</li>
+          <li>93: Rimee Modi</li>
+          <li>94: Rudrani Chaurasiya</li>
+          <li>95: Kappi Kritanjay Singh</li>
+          <li>96: Purnima Chaurasiya</li>
+          <li>97: Avani Garg</li>
+          <li>98: Prathmesh Kumar</li>
+          <li>99: Ananya Kesharwani</li>
+          <li>100: Pravar Golecha</li>
+          <li>101: Ashwini M. Balkar</li>
+          <li>102: Parth Sharma</li>
+          <li>103: Kiran Pandav</li>
+          <li>104: Kiran Pandav</li>
+          <li>105: Divya Rusiya</li>
+          <li>106: Artist: Deepshikha</li>
+          <li>107: Bhagyashree Sanjay Salvi</li>
+          <li>108: Janvi Agarwal</li>
+          <li>109: Yashaswini L. J.</li>
+          <li>110: Anjali Kashyap</li>
+          <li>111: Akshat Mishra</li>
+          <li>112: Neelam</li>
+          <li>113: Aana Bose</li>
+          <li>114: Dishita</li>
+          <li>115: Aaradhya Tamrakar</li>
+          <li>116: Jyoti Garg</li>
+          <li>117: Rachna Nama</li>
+          <li>118: Nikita Rana</li>
+          <li>119: Dr. R.K. Ruby</li>
+          <li>120: Dhanvi Jain</li>
+          <li>121: Srijani De</li>
+          <li>122: Ribha Mittal</li>
+          <li>123: Avani Tiwari</li>
+          <li>124: Jayesh Verma</li>
+          <li>125: Minisha Kolekar</li>
+          <li>126: Diya Sharma</li>
+          <li>127: Khushboo Patel</li>
+          <li>128: Inaaya Arafathussein Mulla</li>
+          <li>129: Bhagya Venkat</li>
+          <li>130: Stuti Mahajan</li>
+          <li>131: Ajay Pratap Singh Rathore</li>
+          <li>132: Ronith G M</li>
+          <li>133: Yatindra Mahobe</li>
+          <li>134: S. Iswarya</li>
+          <li>135: S. Hariram</li>
+          <li>136: SKR. Stephina Ivanjalin</li>
+          <li>137: SKR</li>
+          <li>138: Neha Das</li>
+          <li>139: Nandini Gawande</li>
+          <li>140: Mandala</li>
+          <li>141: Kshuthritha Kanna</li>
+          <li>142: Wajeed Taskeen</li>
+          <li>143: TRISHA HALDER</li>
+          <li>144: Amogh Manoj</li>
+          <li>145: Yatindra Mahobe</li>
+          <li>146: MUTHU HARIS</li>
+          <li>147: Neeraj Mishra</li>
+          <li>148: P. Sivasuthan</li>
+          <li>149: Sumithra Jayaprakash</li>
+          <li>150: Aadya Kashyap</li>
+          <li>151: Radhika Bagri</li>
+          <li>152: Mrinmoy Roy</li>
+          <li>153: VIDHYA</li>
+          <li>154: BARKATH REENA S.</li>
+          <li>155: Amit Sharma</li>
+          <li>156: Kavya Nair</li>
+          <li>157: Mohit Patel</li>
+          <li>158: Renuka Shinde</li>
+          <li>159: Vishal Singh</li>
+          <li>160: Swati Sinha</li>
+          <li>161: Kunal Rathod</li>
+          <li>162: Meera Gupta</li>
+          <li>163: Nishant Malhotra</li>
+          <li>164: Anusha Bhandari</li>
+          <li>165: Gopal Menon</li>
+          <li>166: Harish Joshi</li>
+          <li>167: Kavita Yadav</li>
+          <li>168: Anil Kapoor</li>
+          <li>169: Sneha Reddy</li>
+          <li>170: Suresh Kumar</li>
+          <li>171: Pooja Bhatia</li>
+          <li>172: Ramesh Iyer</li>
+          <li>173: Richa Agarwal</li>
+          <li>174: Ashok Singh</li>
+          <li>175: Shruti Deshmukh</li>
+          <li>176: Vikram Nambiar</li>
+          <li>177: Anjali Roy</li>
+          <li>178: Rajesh Kulkarni</li>
+          <li>179: Alka Tiwari</li>
+          <li>180: Dhruv Patel</li>
+          <li>181: Sunita Rathi</li>
+          <li>182: Prakash Yadav</li>
+          <li>183: Reena Menon</li>
+          <li>184: Ajay Shetty</li>
+          <li>185: Sonali Ghosh</li>
+          <li>186: Rohan Sharma</li>
+          <li>187: Nidhi Gupta</li>
+          <li>188: Karan Thakur</li>
+          <li>189: Priya Rao</li>
+          <li>190: Arjun Verma</li>
+          <li>191: Sangeeta Mehta</li>
+          <li>192: Mohan Pillai</li>
+          <li>193: Neeta Desai</li>
+          <li>194: Vivek Khanna</li>
+          <li>195: Jyoti Bhagat</li>
+          <li>196: Ravi Shankar</li>
+          <li>197: Archana Nair</li>
+          <li>198: Abhay Gupta</li>
+          <li>199: Simran Choudhary</li>
+          <li>200: Ankit Verma</li>
+        </ul>
+      </ol>
+    </div>
+
+    <div class="container text-center">
+      <div>
+        <div style="display: inline-block; margin-right: 20px">
+          <div
+            style="
+              width: 20px;
+              height: 20px;
+              background-color: green;
+              display: inline-block;
+            "
+          ></div>
+          <span style="margin-left: 5px; color: green"
+            >Address Form Filled</span
+          >
+        </div>
+        <div style="display: inline-block">
+          <div
+            style="
+              width: 20px;
+              height: 20px;
+              background-color: red;
+              display: inline-block;
+            "
+          ></div>
+          <span style="margin-left: 5px; color: red"
+            >Address Form Not Filled</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
