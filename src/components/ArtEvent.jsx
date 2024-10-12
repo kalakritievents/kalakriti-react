@@ -125,7 +125,7 @@ const ArtEvent = () =>{
       <div className={styles.indianCultureSection}>
         <h2>NATIONAL ART CONTEST FOR OUR INDIAN CULTURE</h2>
         <p style={{ "fontSize": "larger" }}>India's Largest Online Art Competition Platform*</p>
-        <h4 className={styles.SeasonName} >GRAND SEASON 10 LIVE NOW</h4>
+        <h4 className={styles.SeasonName} >GRAND SEASON 14 LIVE NOW</h4>
       </div>
 
       <div className={styles.container3}>
