@@ -96,8 +96,8 @@ const Footer = () => {
               <p>We're thrilled to hear from you and assist you with any inquiries you may have about the Kalakriti Art Event. Please don't hesitate to reach out to us using the contact information provided below:</p>
               <address>
               <br />
-                <strong>Address:</strong> Kalakriti Art Event, Mumbai-India<br />
-                <strong>Phone:</strong> +91 9209452285<br />
+                <strong>Address:</strong> Kalakriti Art Event,India<br />
+                <strong>Phone:</strong> +91 7385259884<br />
                 <strong>Email:</strong> kalakritievents07@gmail.com
               <br />
               <br />
