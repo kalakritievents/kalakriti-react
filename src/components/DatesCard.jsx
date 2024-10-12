@@ -1,4 +1,5 @@
-import React from 'react';
+
+'react';
 import styles from './ArtEvent.module.css';
 
 const DatesCard = () => {
@@ -11,7 +12,7 @@ const DatesCard = () => {
       <div className={styles.datesContainer}>
         <div className={styles.dateBox}>
           <p className={styles.dateTitle}>Last Date To Apply</p>
-          <p className={styles.date}>31st October 2024</p>
+          <p className={styles.date}>20th October 2024</p>
         </div>
         <div className={styles.dateBox}>
           <p className={styles.dateTitle}>Registration Start Date</p>
