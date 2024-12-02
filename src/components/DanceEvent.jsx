@@ -82,7 +82,7 @@ const ArtEvent = () =>{
         <h2>NATIONAL DANCE CONTEST FOR OUR INDIAN CULTURE</h2>
         <p style={{ "fontSize": "larger" }}>India's Largest Online Dance Competition Platform*</p>
         {/* <h4 style={{ "fontWeight": "bold" }} >SEASON 2 LIVE NOW</h4> */}
-        <h4 className={styles.SeasonName} >SEASON 7 LIVE NOW</h4>
+        <h4 className={styles.SeasonName} >SEASON 8 LIVE NOW</h4>
 
       </div>
 
