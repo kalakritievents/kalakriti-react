@@ -12,19 +12,19 @@ const DatesCard = () => {
       <div className={styles.datesContainer}>
         <div className={styles.dateBox}>
           <p className={styles.dateTitle}>Last Date To Apply</p>
-          <p className={styles.date}>5th March 2025</p>
+          <p className={styles.date}>25th March 2025</p>
         </div>
         <div className={styles.dateBox}>
           <p className={styles.dateTitle}>Registration Start Date</p>
-          <p className={styles.date}>01st February 2025</p>
+          <p className={styles.date}>01st March 2025</p>
         </div>
         <div className={styles.dateBox}>
           <p className={styles.dateTitle}>Result Date</p>
-          <p className={styles.date}>7th March 2025</p>
+          <p className={styles.date}>31st March 2025</p>
         </div>
         <div className={styles.dateBox}>
           <p className={styles.dateTitle}>Prize Distribution</p>
-          <p className={styles.date}>9th March 2025</p>
+          <p className={styles.date}>1st April 2025</p>
         </div>
       </div>
     </div>
