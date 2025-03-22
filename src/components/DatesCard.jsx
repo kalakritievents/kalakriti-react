@@ -5,7 +5,7 @@ import styles from './ArtEvent.module.css';
 const DatesCard = () => {
   return (
     <div className={styles.datesSection}>
-      <h1 className={styles.mainTitle}>GRAND SEASON 16</h1>
+      <h1 className={styles.mainTitle}>GRAND SEASON 17</h1>
       <h2 className={styles.sectionTitle}>IMPORTANT DATES 
 {/*         <span className={styles.updated}>(Updated)</span> */}
       </h2>
