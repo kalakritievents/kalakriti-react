@@ -97,7 +97,7 @@ const Footer = () => {
               <address>
               <br />
                 <strong>Address:</strong> Kalakriti Art Event,India<br />
-                <strong>Phone:</strong> +91 7385259884<br />
+                <strong>Phone:</strong> +91 7218559884<br />
                 <strong>Email:</strong> kalakritievents07@gmail.com
               <br />
               <br />
