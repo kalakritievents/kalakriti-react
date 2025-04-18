@@ -5,12 +5,12 @@ import { Card, Dropdown, DropdownButton } from 'react-bootstrap'; // Ensure Reac
 import styles from './ResultPage.module.css'; // Path to your CSS file for this component
 
 const events = [
-    { name: 'Art Event', basepath: '/art', seasons: 16 },
-    { name: 'Mehandi Event', basepath: '/mehandi', seasons: 16 },
-    { name: 'Rangoli Event', basepath: '/rangoli', seasons: 16 },
-    { name: 'Photography Event', basepath: '/photography', seasons: 16 },
-    { name: 'Dance Event', basepath: '/dance', seasons: 9 },
-    { name: 'Singing Event', basepath: '/singing', seasons: 8 },
+    { name: 'Art Event', basepath: '/art', seasons: 17 },
+    { name: 'Mehandi Event', basepath: '/mehandi', seasons: 17 },
+    { name: 'Rangoli Event', basepath: '/rangoli', seasons: 17 },
+    { name: 'Photography Event', basepath: '/photography', seasons: 17 },
+    { name: 'Dance Event', basepath: '/dance', seasons: 10 },
+    { name: 'Singing Event', basepath: '/singing', seasons: 9 },
 ];
 
 const ResultPage = () => {
