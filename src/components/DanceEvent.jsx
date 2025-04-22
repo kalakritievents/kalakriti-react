@@ -81,8 +81,8 @@ const ArtEvent = () =>{
       <div className={styles.indianCultureSection}>
         <h2>NATIONAL DANCE CONTEST FOR OUR INDIAN CULTURE</h2>
         <p style={{ "fontSize": "larger" }}>India's Largest Online Dance Competition Platform*</p>
-        {/* <h4 style={{ "fontWeight": "bold" }} >SEASON 2 LIVE NOW</h4> */}
-        <h4 className={styles.SeasonName} >SEASON 8 LIVE NOW</h4>
+        {/* <h4 style={{ "fontWeight": "bold" }} >SEASON 10 LIVE NOW</h4> */}
+        <h4 className={styles.SeasonName} >SEASON 10 LIVE NOW</h4>
 
       </div>
 
@@ -112,7 +112,7 @@ const ArtEvent = () =>{
 
       <FeedbackCardsContainer />
       
-      <CountdownTimer targetDate="2024-12-31T00:00:00" />
+      <CountdownTimer targetDate="2026-12-31T00:00:00" />
 
       <InfoCards />
 
