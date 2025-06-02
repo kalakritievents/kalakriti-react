@@ -31,8 +31,8 @@ const ResultPage = () => {
                             <Card.Title>{event.name} Results</Card.Title>
                             <DropdownButton id={`dropdown-${index}-button`} title="View Results" variant="primary">
                                 {[...Array(event.seasons)].map((x, i) => (
-                                    <Dropdown.Item key={i} onClick={() => handleSelect(i + 2, event.basepath)}>
-                                        {`Season ${i + 2}`} {i === event.seasons - 2 ? <span className={styles.newlabel}>New</span> : null}
+                                    <Dropdown.Item key={i} onClick={() => handleSelect(i + 1, event.basepath)}>
+                                        {`Season ${i + 1}`} {i === event.seasons - 1 ? <span className={styles.newlabel}>New</span> : null}
                                     </Dropdown.Item>
                                 ))}
                             </DropdownButton>
