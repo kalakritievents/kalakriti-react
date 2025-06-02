@@ -5,12 +5,12 @@ import { Card, Dropdown, DropdownButton } from 'react-bootstrap'; // Ensure Reac
 import styles from './ResultPage.module.css'; // Path to your CSS file for this component
 
 const events = [
-    { name: 'Art Event', basepath: '/art', seasons: 17 },
-    { name: 'Mehandi Event', basepath: '/mehandi', seasons: 17 },
-    { name: 'Rangoli Event', basepath: '/rangoli', seasons: 17 },
-    { name: 'Photography Event', basepath: '/photography', seasons: 17 },
-    { name: 'Dance Event', basepath: '/dance', seasons: 10 },
-    { name: 'Singing Event', basepath: '/singing', seasons: 9 },
+    { name: 'Art Event', basepath: '/art', seasons: 18 },
+    { name: 'Mehandi Event', basepath: '/mehandi', seasons: 18 },
+    { name: 'Rangoli Event', basepath: '/rangoli', seasons: 18 },
+    { name: 'Photography Event', basepath: '/photography', seasons: 18 },
+    { name: 'Dance Event', basepath: '/dance', seasons: 11 },
+    { name: 'Singing Event', basepath: '/singing', seasons: 10 },
 ];
 
 const ResultPage = () => {
@@ -31,8 +31,8 @@ const ResultPage = () => {
                             <Card.Title>{event.name} Results</Card.Title>
                             <DropdownButton id={`dropdown-${index}-button`} title="View Results" variant="primary">
                                 {[...Array(event.seasons)].map((x, i) => (
-                                    <Dropdown.Item key={i} onClick={() => handleSelect(i + 1, event.basepath)}>
-                                        {`Season ${i + 1}`} {i === event.seasons - 1 ? <span className={styles.newlabel}>New</span> : null}
+                                    <Dropdown.Item key={i} onClick={() => handleSelect(i + 2, event.basepath)}>
+                                        {`Season ${i + 2}`} {i === event.seasons - 2 ? <span className={styles.newlabel}>New</span> : null}
                                     </Dropdown.Item>
                                 ))}
                             </DropdownButton>
